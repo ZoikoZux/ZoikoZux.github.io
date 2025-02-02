@@ -1,3 +1,11 @@
+h1 {
+  text-decoration: underline dashed;
+}
+
+h3 {
+  text-decoration: underline dashed;
+}
+
 footer {
     display: flex;
     justify-content: left;
@@ -111,4 +119,8 @@ body {
 
   #mainp {
     width: 50%;
+  }
+
+  #mainp:first-letter {
+    font-size: 32px;
   }
