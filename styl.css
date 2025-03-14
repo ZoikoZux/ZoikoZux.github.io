@@ -116,9 +116,13 @@ body {
   }
 
   #mainp {
-    width: 75%;
+    width: 70%;
   }
 
   #mainp:first-letter {
     font-size: 32px;
+  }
+
+  #mainpp {
+    width: 60%;
   }
