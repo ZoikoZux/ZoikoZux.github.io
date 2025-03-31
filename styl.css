@@ -7,80 +7,27 @@ footer {
     display: flex;
     justify-content: left;
     gap: 10%;
-    background-color: rgb(156, 147, 136);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/download.jpg);
+    filter: grayscale(100%);
     padding: 16px;
     font-size: 16px;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 1%;
-    background-color: rgb(189, 179, 166);
-}
 
 header {
     display: flex;
     justify-content: left;
-    background-color: rgb(170, 158, 143);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/download.jpg);
+    filter: grayscale(100%);
     padding: 16px;
     font-size: 16px;
 }
 
 body {
-    background-color: rgb(221, 205, 186);
+    background-color: rgb(177, 177, 177);
     font-family: sans-serif;
 }
 
-#navi {
-    background-color: rgb(163, 146, 123);
-    color: black;
-    font-style: normal;
-    list-style-type: none;
-    padding: 16px;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-
-.dropbtn {
-    background-color: rgb(163, 146, 123);
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(224, 204, 176);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: rgb(202, 184, 159)}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: rgb(131, 117, 99);
-  }
 
   #paper {
     background-color: white;
@@ -96,7 +43,8 @@ body {
 
   aside {
     padding: 10px;
-    background-color: rgb(255, 255, 255);
+    background-image: url(assets/download.jpg);
+    filter: grayscale(100%);
     width: 27%;
   }
 
@@ -104,7 +52,8 @@ body {
     display: flex;
     gap: 1%;
     padding: 10px;
-    background-color: rgb(255, 255, 255);
+    background-image: url(assets/download.jpg);
+    filter: grayscale(100%);
     width: 71%;
   }
 
@@ -125,4 +74,8 @@ body {
 
   #mainpp {
     width: 60%;
+  }
+
+  #news{
+    width: 100%;
   }
