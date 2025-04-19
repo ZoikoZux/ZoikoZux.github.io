@@ -46,7 +46,31 @@
         <img src="assets/pngtree-paper-tape-texture-texture-png-image_5376936.png" id="tape2">
         </section>
 
-   
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const object = document.querySelector("#page object");
+                const tape1 = document.getElementById("tape1");
+                const tape2 = document.getElementById("tape2");
+            
+            
+                object.addEventListener("error", hideTapes);
+            
+               
+                setTimeout(() => {
+                    const fallbackLink = object.querySelector("p");
+                    const isFallbackVisible = fallbackLink && fallbackLink.offsetParent !== null;
+            
+                    if (isFallbackVisible) {
+                        hideTapes();
+                    }
+                }, 1000);
+            
+                function hideTapes() {
+                    tape1.style.display = "none";
+                    tape2.style.display = "none";
+                }
+            });
+            </script>
     </section>
 </body>
 </html>
