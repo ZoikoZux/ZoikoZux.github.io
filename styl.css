@@ -2,32 +2,30 @@ h1 {
   text-decoration: underline dashed;
 }
 
+body {   
+  background-image: url(assets/papaer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Brush Script MT';
+  font-size: larger;
 
-footer {
-    display: flex;
-    justify-content: left;
-    gap: 10%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/download.jpg);
-    filter: grayscale(100%);
-    padding: 16px;
-    font-size: 16px;
 }
 
+#head-selector{
+  display: flex;
+}
+
+#hat{
+  margin-left: 4%;
+}
 
 header {
     display: flex;
     justify-content: left;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/download.jpg);
-    filter: grayscale(100%);
-    padding: 16px;
     font-size: 16px;
+    margin-top: 4.5%;
+    margin-left: 10.5%;
 }
-
-body {
-    background-color: rgb(177, 177, 177);
-    font-family: sans-serif;
-}
-
 
   #paper {
     background-color: white;
@@ -39,43 +37,65 @@ body {
     color: black;
     font-size: 16px;
     text-decoration: none;
-  }
-
-  aside {
-    padding: 10px;
-    background-image: url(assets/download.jpg);
-    filter: grayscale(100%);
-    width: 27%;
+    font-size: 25px;
   }
 
   #main {
     display: flex;
-    gap: 1%;
-    padding: 10px;
-    background-image: url(assets/download.jpg);
-    filter: grayscale(100%);
-    width: 71%;
+    gap: 10%;
+    width: 80%;
   }
 
   #mainsel {
     display: flex;
-    gap: 1%;
+    gap: 5%;
     margin: 10px;
     height: 100%;
   }
 
   #mainp {
-    width: 70%;
-  }
-
-  #mainp:first-letter {
-    font-size: 32px;
+    width: 100%;
   }
 
   #mainpp {
-    width: 60%;
+    width: 75%;
   }
 
   #news{
+    width: 140%;
+  }
+
+  p{
+    font-size: 25px;
+  }
+
+  #left{
+    width: 19.6875em;
+  }
+  #main-selector{
+    display: flex;
+    gap: 5%;
+    margin: 10px;
     width: 100%;
+  }
+
+  #page{
+    width: 70em;
+  }
+
+  #tape1{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+
+  }
+  #tape2{
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+
+  }
+
+  #releative{
+    position: relative;
   }
