@@ -5,7 +5,7 @@ h1 {
 body {   
   background-image: url(assets/papaer.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   font-family: 'Brush Script MT';
   font-size: larger;
 
