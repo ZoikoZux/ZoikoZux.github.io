@@ -20,11 +20,9 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: left;
     font-size: 16px;
     margin-top: 4.5%;
-    margin-left: 10.5%;
+    margin-left: 6%;
 }
 
   #paper {
@@ -74,7 +72,6 @@ header {
   }
   #main-selector{
     display: flex;
-    gap: 5%;
     margin: 10px;
     width: 100%;
   }
@@ -84,18 +81,24 @@ header {
   }
 
   #tape1{
+    width: 10%;
     position: absolute;
-    top: -10%;
-    left: -10%;
+    top: 3%;
+    left: 2%;
 
   }
   #tape2{
+    width: 10%;
     position: absolute;
-    bottom: -10%;
-    right: -10%;
+    bottom: 5%;
+    right: 5%;
 
   }
 
   #releative{
     position: relative;
+  }
+
+  #header-img{
+    width: 150%;
   }
